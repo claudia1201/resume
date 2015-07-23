@@ -7,7 +7,7 @@
 	width: 100%;
 }
 .header a{
-	text-decoration: none;
+	border-bottom: .1px solid black;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	color: rgba(204,204,204,.4);
 }
@@ -15,7 +15,7 @@
 	padding: 1% 0;
 }
 .projectsContainer a{
-	text-decoration: none;
+	border-bottom: .1px solid black;
 	color: black;
 	padding-left: 6%;
 }
