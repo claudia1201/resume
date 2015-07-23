@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+}
+.header a{
+	text-decoration: none;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: rgba(204,204,204,.4);
+}
+.todoRPG, .OOP, .emojiStory{
+	padding: 1% 0;
+}
+.projectsContainer a{
+	text-decoration: none;
+	color: black;
+	padding-left: 6%;
+}
+.projectsContainer .box{
+    display: none;
+    width: 100%;
+}
+.projectsContainer a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+    transition: all 3s ease;
+}
+body{
+	font-family	:'Open Sans', OpenSans ,sans-serif;
+}
+.il{ 
+	display: inline-block;
+}
+.header{
+	padding-bottom: 3%;
+	/*background-color: rgba(68, 197, 179, .3);*/
+	background: linear-gradient(to bottom, rgba(238,238,238,.8) 0%,rgba(204,204,204,.8) 100%); 
+}
+.header .name{
+	font-size: 6.5vw;
+	text-align: center;
+	padding: 3%;
+	letter-spacing: -1px;
+	font-weight: 400;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: rgba(204,204,204,.8);
+}
+.info{
+	text-align: center;
+	font-size: 1.8vw;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: rgba(204,204,204,.4);
+}
+.github, .email{
+	border-right: 2px solid black;
+	margin-right: 1vw;
+	padding-right: 1vw;
+}
+.body{
+	background-image: url(Assets/backgroundImage.jpg);
+	background-size: cover; 
+}
+.content{
+	background-color: rgba(230,230,230,.4);
+	padding: 7%;
+	font-weight: 400;
+	line-height: 200%;
+	letter-spacing: -.1px;
+}
+h1{
+	font-size: 2vw;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black , 7px 4px 3px rgba(0,0,0,0.3);
+	color: rgba(204,204,204,.6);
+}
+h3{
+	font-size: 1.8vw;
+}
+
+p{
+	padding-left: 1%;
+	padding-bottom: 1.5%;
+	font-weight: 400;	
+}
+span{
+	padding-left: .8%;	
+}
+.skillsContainer p{
+	display: inline-block;
+	width: 50%;
+}
+.skillsContainer, .experienceContainer, .educationContainer {
+	padding: 1% 5%;
+}
+
+@media only screen and (max-device-width:480px){
+	/* styles for mobile browsers smaller than 480px; (iPhone) */
+	.header .name{
+		padding: 2%;
+	}
+	.projectsContainer a{
+		font-size: 2.8vw;
+	}
+	.skillsContainer p{
+		font-size: 3vw;
+	}
+	span{
+		padding-left: 1%;
+		font-size: 1.4vw;
+		padding-bottom: 100%;
+	}
+	p{
+		padding-left: 2%;
+		font-size:  1.4vw;
+	}
+	h3{
+		font-size: 2vw;
+	}
+}
