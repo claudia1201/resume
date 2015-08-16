@@ -8,10 +8,10 @@
 }
 .header a{
 	border-bottom: .1px solid black;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
 	color: rgba(204,204,204,.4);
 }
-.todoRPG, .OOP, .emojiStory{
+.todoRPG, .OOP, .emojiStory, .surfAndPaddle, .TIYcurrent, .TIYfuture{
 	padding: 1% 0;
 }
 .projectsContainer a{
@@ -52,7 +52,7 @@ body{
 .info{
 	text-align: center;
 	font-size: 1.8vw;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
 	color: rgba(204,204,204,.4);
 }
 .github, .email{
