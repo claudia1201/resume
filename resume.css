@@ -14,7 +14,6 @@
 .header{
 	padding-bottom: 3%;
 	background-color: rgba(92, 195, 105, 0.3);
-	
 	letter-spacing: -1px;
 	/*background: linear-gradient(to bottom, rgba(238,238,238,.8) 0%,rgba(204,204,204,.8) 100%); */
 }
@@ -50,7 +49,6 @@
 	padding: 1% 0;
 }
 .projectsContainer a{
-	border-bottom: .1px solid black;
 	color: black;
 	padding-left: 6%;
 }
