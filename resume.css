@@ -100,8 +100,11 @@ span{
 	.header .name{
 		padding: 2%;
 	}
-	.info{
+	.info,{
 		font-size: 2.5em;
+	}
+	.info a{
+		font-size: 1.5em;
 	}
 	.projectsContainer a{
 		font-size: 2.8em;
